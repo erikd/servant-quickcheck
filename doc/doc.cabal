@@ -39,7 +39,7 @@ cabal-version:       >=1.10
 --   ghc-options:         -Wall -Werror -pgmL markdown-unlit
 
 executable announcement
-  main-is:             Announcement.lhs
+  main-is:             Main.hs
   build-depends:       base >=4.8 && <4.9
                      , servant-server == 0.7.*
                      , servant-quickcheck
